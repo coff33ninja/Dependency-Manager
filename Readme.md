@@ -10,7 +10,7 @@ root/
     ├── run_app.py
     ├── requirements.txt
     ├── main.py
-    ├── INSTRUCTIONS.txt
+    ├── Readme.md
     └── portable/
         ├── __init__.py
         ├── updater.py
