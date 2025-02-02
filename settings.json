@@ -1,0 +1,38 @@
+{
+    "dependencies": {
+        "check_on_startup": true,
+        "auto_install": true,
+        "requirements_file": "requirements.txt",
+        "allow_prerelease": false,
+        "trusted_hosts": [],
+        "extra_index_urls": []
+    },
+    "environment": {
+        "use_venv": true,
+        "venv_path": "venv",
+        "python_path": ""
+    },
+    "installer": {
+        "preferred_manager": "pip",
+        "allow_user_install": true,
+        "upgrade_dependencies": false,
+        "timeout": 60,
+        "retries": 3,
+        "cache_dir": ".package_cache"
+    },
+    "security": {
+        "check_vulnerabilities": true,
+        "minimum_package_safety_score": 80,
+        "allow_yanked_versions": false
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "dependency_checker.log",
+        "format": "%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+        "date_format": "%Y-%m-%d %H:%M:%S"
+    },
+    "launcher": {
+        "working_directory": "..",
+        "selected_app": ""
+    }
+}
