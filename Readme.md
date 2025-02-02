@@ -5,9 +5,7 @@ This project provides a portable solution for managing dependencies, environment
 ## Project Structure
 
 ```plaintext
-scripts/
-├── settings.json
-└── test/
+root/
     ├── settings.json
     ├── run_app.py
     ├── requirements.txt
