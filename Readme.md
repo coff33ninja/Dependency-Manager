@@ -52,8 +52,8 @@ Contains the core functionality required for dependency management, environment 
 ### Root Files
 - **`settings.json`** - Global configuration file.
 - **`run_app.py`** - Main entry point for launching applications.
-- **`requirements.txt`** - Lists required dependencies.
-- **`main.py`** - Sample main application script.
+- **`requirements.txt`** - Lists required dependencies. (Only be used as an example)
+- **`main.py`** - Sample main application script. (Only be used as an example)
 - **`Readme.md`** - Documentation and usage guide.
 
 ## Getting Started
